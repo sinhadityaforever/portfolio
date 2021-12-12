@@ -43,7 +43,7 @@ export const projects = [
     title: "EtherApp",
     description:
       "An android app that connects you with a person of same interest every third day, gives you access to communities of like-minded people, and gives you personalized video content, from which you can learn, and add notes in the app.",
-    image: "/images/ether.jpg",
+    image: "/images/Ether.jpg",
     tags: ["Flutter", "pgSQL", "Express"],
     source: "https://github.com/sinhadityaforever/Ether_Frontend",
     demo: "https://drive.google.com/file/d/1sbLcMe18ByM4m1Hevir2mKLQ_4pY-Yjo/view?usp=sharing",
