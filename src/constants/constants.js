@@ -20,6 +20,15 @@ export const projects = [
     id: 1,
   },
   {
+    title: "Twitter Clone",
+    description:
+      "A full stack Twitter Clone built with react, typescript, graphql, and pgSQL",
+    image: "/images/twtr.jpg",
+    tags: ["React", "TypeScript", "GraphqL", "Apollo", "Prisma", "pgSQL"],
+    visit: "https://twitter-clonefrontend.vercel.app/landing",
+    source: "https://github.com/sinhadityaforever/twtr-clone",
+  },
+  {
     title: "Airbnb Clone",
     description:
       "This highly-responsive frontend clone of Airbnb was built with Next.js and Tailwind css. Alongside, Mapbox was used to show maps on the website.",
