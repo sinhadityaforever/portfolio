@@ -27,6 +27,7 @@ export const projects = [
     tags: ["React", "TypeScript", "GraphqL", "Apollo", "Prisma", "pgSQL"],
     visit: "https://twitter-clonefrontend.vercel.app/landing",
     source: "https://github.com/sinhadityaforever/twtr-clone",
+    index: 3,
   },
   {
     title: "Airbnb Clone",
@@ -46,7 +47,7 @@ export const projects = [
     tags: ["React", "TMDB", "Firebase"],
     source: "https://github.com/sinhadityaforever/Netflix",
     visit: "https://netflix-sable.vercel.app/",
-    id: 3,
+    id: 4,
   },
   {
     title: "EtherApp",
@@ -56,7 +57,7 @@ export const projects = [
     tags: ["Flutter", "pgSQL", "Express"],
     source: "https://github.com/sinhadityaforever/Ether_Frontend",
     demo: "https://drive.google.com/file/d/1sbLcMe18ByM4m1Hevir2mKLQ_4pY-Yjo/view?usp=sharing",
-    id: 4,
+    id: 5,
   },
 ];
 
