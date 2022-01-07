@@ -1,12 +1,8 @@
-## Personal Portfolio
+## Personal Portfolio Website
 
-### [Live Site](https://jsmasterypro.com)
+### [Click Here For Live Site](https://adityasinha.site)
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+- Tools used: Next.js and styled components 👇👇
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
 
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
-
-Setup:
-- run ```npm i && npm start```
+![Screenshot 2021-12-12 223513](https://user-images.githubusercontent.com/15373726/145721997-2484d2a5-5ee2-428c-be04-db724ef96289.jpg)
