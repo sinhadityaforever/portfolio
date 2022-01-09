@@ -1,6 +1,6 @@
 import React from "react";
 import { RoughNotationGroup, RoughNotation } from "react-rough-notation";
-
+import Link from "next/dist/client/link";
 import {
   Section,
   SectionText,
@@ -22,7 +22,9 @@ const Hero = (props) => (
         {/* <SectionText>
          
         </SectionText> */}
-        {/* <Button onClick={props.handleClick}>Learn More</Button> */}
+        <Link href="mailto:sinhadityaforever@gmail.com">
+          <Button>Say Hello</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>
