@@ -65,11 +65,16 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <div style={{ marginTop: "2rem" }}></div>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a full-stack developer from India and I enjoy making beautiful and
-        functional products. Currently, I'm looking for opportunities,
-        especially in the startup world.
+        I’m a software developer specializing in building full stack web apps.
+        Currently, I’m looking for an internship at a seed or pre-seed stage
+        startup as a Full-Stack developer. I tried to start my first app based
+        startup around a year ago, and got it deployed within a month. Currently
+        I am looking to be around people who are building products that bring a
+        difference
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -97,7 +102,7 @@ const Timeline = () => {
                       fill-rule="evenodd"
                       clip-rule="evenodd"
                       d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
-                      fill="url(#paint0_linear)"
+                      fill="black"
                       fill-opacity="0.33"
                     />
                     <defs>
@@ -140,7 +145,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

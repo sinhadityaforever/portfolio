@@ -18,38 +18,36 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tech that I love</SectionTitle>
     <SectionText>
       I've worked with a range of technologies for web and app development. Some
-      of them includes:
+      of them which I love working with includes:
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiReact size="3rem" color="#1F41AF" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js, Flutter, Typescript
+            React.js, Next.js, Tailwind CSS, Redux Toolkit, Flutter, Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
+        <picture color="#1F41AF">
           <FaNodeJs size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, Express.js, Typescript
+            Node.js, Express.js, GraphQL, Prisma, Apollo Server, Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
+        <picture color="#1F41AF">
           <DiDatabase size="3rem" />
         </picture>
         <ListContainer>

@@ -23,7 +23,7 @@ import { projects } from "../../constants/constants";
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Stuffs that I've built</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -35,7 +35,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent style={{ marginTop: "4rem" }}>
+              <TitleContent style={{ marginTop: "4rem", color: "black" }}>
                 Tools Used
               </TitleContent>
               <TagList>

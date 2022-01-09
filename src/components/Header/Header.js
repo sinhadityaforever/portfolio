@@ -1,7 +1,13 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
+import { DiTerminal } from "react-icons/di";
 
 import {
   Container,
@@ -16,8 +22,8 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+        <a style={{ display: "flex", alignItems: "center", color: "#1F41AF" }}>
+          <DiTerminal size="3rem" /> <span>Portfolio</span>
         </a>
       </Link>
     </Div1>
@@ -27,14 +33,14 @@ const Header = () => (
           <NavLink>Projects</NavLink>
         </Link>
       </li>
-      <li>
+      <li ta>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="/Resume.pdf">
+          <NavLink>Resume</NavLink>
         </Link>
       </li>
     </Div2>
@@ -48,11 +54,8 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons
-        href="https://www.instagram.com/just_another_aadi/"
-        target="_blank"
-      >
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="https://twitter.com/Aadeeez1" target="_blank">
+        <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

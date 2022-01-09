@@ -1,4 +1,5 @@
 import React from "react";
+import { RoughNotationGroup, RoughNotation } from "react-rough-notation";
 
 import {
   Section,
@@ -14,9 +15,10 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Hey! I'm Aditya. <br />
-          Welcome To My <br />
-          Personal Portfolio
+          A Person Who <br />
+          Iterates Fast
         </SectionTitle>
+
         {/* <SectionText>
          
         </SectionText> */}
