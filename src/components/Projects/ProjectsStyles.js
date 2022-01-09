@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -91,7 +91,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 0 3rem;
   }
 `;
 
