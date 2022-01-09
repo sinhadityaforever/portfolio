@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Using TypeScript, React, and Express, the SocioApp is a full stack social media app where you can follow your friends, share your own thoughts, and view theirs.",
     image: "/images/socio-cropped.jpg",
-    tags: ["Typescript", "Express", "React", "Node", "MongoDB"],
+    tags: ["React", "Express", "MongoDB"],
     source: "https://github.com/sinhadityaforever/SocialMediaApp",
     visit: "https://socio-app-frontend.vercel.app/",
     id: 0,
@@ -24,7 +24,7 @@ export const projects = [
     description:
       "A full stack Twitter Clone built with react, typescript, graphql, and pgSQL",
     image: "/images/twtr.jpg",
-    tags: ["React", "TypeScript", "GraphqL", "Apollo", "Prisma", "pgSQL"],
+    tags: ["React", "GraphqL", "pgSQL"],
     visit: "https://twitter-clonefrontend.vercel.app/landing",
     source: "https://github.com/sinhadityaforever/twtr-clone",
     index: 3,

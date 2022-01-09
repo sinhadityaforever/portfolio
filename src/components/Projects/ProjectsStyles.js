@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  background: linear-gradient(to top, #3204fdba, #9907facc);
 `;
 
 export const GridContainer = styled.section`
@@ -23,11 +24,16 @@ export const GridContainer = styled.section`
   }
 `;
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  background-color: #e4ebfb;
+  background-color: linear-gradient(
+    90deg,
+    rgba(175, 213, 255, 1) 0%,
+    rgba(230, 237, 255, 1) 30%,
+    rgba(247, 247, 247, 1) 100%
+  );
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;

@@ -6,7 +6,7 @@ const Image = styled.img`
 marginLeft: 73rem,
 display: none,
 marginTop: 10rem, */
-  max-width: 50%;
+  max-width: 60%;
   margin-left: 17rem;
   margin-top: 4rem;
   @media (max-width: 768px) {
