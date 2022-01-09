@@ -13,6 +13,7 @@ import {
   UtilityList,
   Img,
 } from "./ProjectsStyles";
+import FadeIn from "react-fade-in";
 import {
   Section,
   SectionDivider,
@@ -27,39 +28,41 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
-            <Img src={p.image} />
-            <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
-            <div>
-              <TitleContent style={{ marginTop: "4rem", color: "black" }}>
-                Tools Used
+          <FadeIn>
+            <BlogCard key={i}>
+              <Img src={p.image} />
+              <TitleContent>
+                <HeaderThree title>{p.title}</HeaderThree>
+                <Hr />
               </TitleContent>
-              <TagList>
-                {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-              </TagList>
-            </div>
-            <UtilityList>
-              {p.visit ? (
-                <ExternalLinks href={p.visit} target="_blank">
-                  Visit
-                </ExternalLinks>
-              ) : (
-                <ExternalLinks href={p.demo} target="_blank">
-                  Demo
-                </ExternalLinks>
-              )}
+              <CardInfo className="card-info">{p.description}</CardInfo>
+              <div>
+                <TitleContent style={{ marginTop: "4rem", color: "black" }}>
+                  Tools Used
+                </TitleContent>
+                <TagList>
+                  {p.tags.map((t, i) => {
+                    return <Tag key={i}>{t}</Tag>;
+                  })}
+                </TagList>
+              </div>
+              <UtilityList>
+                {p.visit ? (
+                  <ExternalLinks href={p.visit} target="_blank">
+                    Visit
+                  </ExternalLinks>
+                ) : (
+                  <ExternalLinks href={p.demo} target="_blank">
+                    Demo
+                  </ExternalLinks>
+                )}
 
-              <ExternalLinks href={p.source} target="_blank">
-                Source
-              </ExternalLinks>
-            </UtilityList>
-          </BlogCard>
+                <ExternalLinks href={p.source} target="_blank">
+                  Source
+                </ExternalLinks>
+              </UtilityList>
+            </BlogCard>
+          </FadeIn>
         );
       })}
     </GridContainer>

@@ -2,52 +2,43 @@ export const projects = [
   {
     title: "SocioApp",
     description:
-      "Using TypeScript, React, and Express, the SocioApp is a full stack social media app where you can follow your friends, share your own thoughts, and view theirs.",
-    image: "/images/socio-cropped.jpg",
+      "Built using TypeScript, React, Redux Toolkit, RestAPI and MongoDB under a week. The SocioApp is a full stack social media app that I made for my university grads where they can follow their friends, share their own thoughts, and view theirs.",
+    image: "/images/new/socio.jpg",
     tags: ["React", "Express", "MongoDB"],
     source: "https://github.com/sinhadityaforever/SocialMediaApp",
     visit: "https://socio-app-frontend.vercel.app/",
     id: 0,
   },
   {
-    title: "Viddaging",
+    title: "Twitter Clone",
     description:
-      "A video calling app built with the help of Agora, TypeScript, and React. The host can have more than two people on line, along with conducting live-polls for them.",
-    image: "/images/viddaging-cropped.jpg",
-    tags: ["React", "TypeScript", "Agora"],
-    source: "https://github.com/sinhadityaforever/Viddaging",
-    visit: "https://viddaging.vercel.app/create",
+      "Built using Typescript, React, Graphql, Apollo-Server, Prisma Client and pgSQL under a week as a DevChallenge to myself. This twitter clone contains token based authentication, and allows users to tweet, like a tweet, follow other users, reply to a tweet, reply to a reply and more.",
+    image: "/images/new/twtr.jpg",
+    tags: ["React", "GraphQL", "pgSQL"],
+    visit: "https://twitter-clonefrontend.vercel.app/landing",
+    source: "https://github.com/sinhadityaforever/twtr-clone",
     id: 1,
   },
   {
-    title: "Twitter Clone",
+    title: "Airbnb Frontend",
     description:
-      "A full stack Twitter Clone built with react, typescript, graphql, and pgSQL",
-    image: "/images/twtr.jpg",
-    tags: ["React", "GraphqL", "pgSQL"],
-    visit: "https://twitter-clonefrontend.vercel.app/landing",
-    source: "https://github.com/sinhadityaforever/twtr-clone",
-    index: 3,
-  },
-  {
-    title: "Airbnb Clone",
-    description:
-      "This highly-responsive frontend clone of Airbnb was built with Next.js and Tailwind css. Alongside, Mapbox was used to show maps on the website.",
-    image: "/images/airbnb.jpg",
-    tags: ["Next.js", "Tailwind CSS", "Mapbox"],
+      "In this project, I tried cloning the frontend of Airbnb using Next.js, Redux, and Tailwind CSS.  Alongside, Mapbox was used to show dummy maps on the website.",
+    image: "/images/new/airbnb.jpg",
+    tags: ["Next.js", "Tailwind CSS", "MapBox"],
     source: "https://github.com/sinhadityaforever/Airbnb-clone",
     visit: "https://airbnb-clone-teal.vercel.app/",
-    id: 2,
+    index: 2,
   },
+
   {
-    title: "Netflix Clone",
+    title: "Netflix Frontend",
     description:
       "This frontend clone of Netflix was built purely with React. To fetch movies metadata, TMDB's api was used.",
     image: "/images/netflix.jpg",
     tags: ["React", "TMDB", "Firebase"],
     source: "https://github.com/sinhadityaforever/Netflix",
     visit: "https://netflix-sable.vercel.app/",
-    id: 4,
+    id: 3,
   },
   {
     title: "EtherApp",
@@ -57,7 +48,7 @@ export const projects = [
     tags: ["Flutter", "pgSQL", "Express"],
     source: "https://github.com/sinhadityaforever/Ether_Frontend",
     demo: "https://drive.google.com/file/d/1sbLcMe18ByM4m1Hevir2mKLQ_4pY-Yjo/view?usp=sharing",
-    id: 5,
+    id: 4,
   },
 ];
 

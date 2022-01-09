@@ -7,18 +7,23 @@ import Timeline from "../components/TimeLine/TimeLine";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import NavDropDown from "../components/NavDropDown";
-
+import FadeIn from "react-fade-in";
 const Home = () => {
   return (
     <Layout>
       <Section grid>
-        <Hero />
+        <FadeIn>
+          <Hero />
+        </FadeIn>
         <BgAnimation />
       </Section>
-      <Timeline />
+      <FadeIn>
+        <Timeline />
+      </FadeIn>
       <Projects />
-      <Technologies />
-
+      <FadeIn>
+        <Technologies />
+      </FadeIn>
       <Acomplishments />
     </Layout>
   );
