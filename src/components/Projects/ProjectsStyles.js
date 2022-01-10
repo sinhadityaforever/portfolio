@@ -39,8 +39,8 @@ export const BlogCard = styled.div`
   -webkit-transition-property: transform;
   transition-property: transform;
   &:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.08);
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;

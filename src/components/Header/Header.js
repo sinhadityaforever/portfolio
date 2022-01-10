@@ -39,9 +39,15 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="/Resume.pdf">
-          <NavLink>Resume</NavLink>
-        </Link>
+        <NavLink>
+          <a
+            style={{ color: "inherit" }}
+            target="_blank"
+            href="https://drive.google.com/file/d/1OFqUcr01eUPToXU7t3U3lJJgVQxJRt5b/view?usp=sharing"
+          >
+            Resume
+          </a>
+        </NavLink>
       </li>
     </Div2>
     <Div3>
