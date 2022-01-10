@@ -31,13 +31,13 @@ export const projects = [
   },
 
   {
-    title: "Netflix Frontend",
+    title: "ViMeet",
     description:
-      "This frontend clone of Netflix was built purely with React. To fetch movies metadata, TMDB's api was used.",
-    image: "/images/netflix.jpg",
-    tags: ["React", "TMDB", "Firebase"],
-    source: "https://github.com/sinhadityaforever/Netflix",
-    visit: "https://netflix-sable.vercel.app/",
+      "Built with typescript and agora app builder and CLI, ViMeet is a video chat application, supporting multiple attendees at the same time. I built this to understand the documentation and get my hands on the Agora App Builder Service.",
+    image: "/images/new/vimeet.jpg",
+    tags: ["Typescript", "Agora"],
+    source: "https://github.com/sinhadityaforever/ViMeeet",
+    visit: "https://vimeet-seven.vercel.app/create",
     id: 3,
   },
   {
