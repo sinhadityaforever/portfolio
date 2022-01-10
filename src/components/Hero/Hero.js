@@ -15,13 +15,13 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey! I'm{" "}
-          <RoughNotation type="underline" padding={1} color="blue" show={true}>
-            Aditya.
-          </RoughNotation>
+          Hey! I'm Aditya.
           <br />
           A Person Who <br />
-          Iterates Fast
+          Iterates{" "}
+          <RoughNotation type="underline" padding={1} color="blue" show={true}>
+            Fast{" "}
+          </RoughNotation>
         </SectionTitle>
 
         {/* <SectionText>

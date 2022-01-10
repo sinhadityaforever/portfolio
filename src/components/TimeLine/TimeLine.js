@@ -76,8 +76,8 @@ const Timeline = () => {
           color="pink"
           type="highlight"
         >
-          full stack{" "}
-        </RoughNotation>
+          full stack
+        </RoughNotation>{" "}
         web apps. Currently, I’m looking for an internship at a seed or pre-seed
         stage startup as a Full-Stack developer. I tried to start{" "}
         <RoughNotation
