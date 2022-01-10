@@ -20,17 +20,6 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Airbnb Frontend",
-    description:
-      "In this project, I tried cloning the frontend of Airbnb using Next.js, Redux, and Tailwind CSS.  Alongside, Mapbox was used to show dummy maps on the website.",
-    image: "/images/new/airbnb.jpg",
-    tags: ["Next.js", "Tailwind CSS", "MapBox"],
-    source: "https://github.com/sinhadityaforever/Airbnb-clone",
-    visit: "https://airbnb-clone-teal.vercel.app/",
-    index: 2,
-  },
-
-  {
     title: "ViMeet",
     description:
       "Built with typescript and agora app builder and CLI, ViMeet is a video chat application, supporting multiple attendees at the same time. I built this to understand the documentation and get my hands on the Agora App Builder Service.",
@@ -38,8 +27,19 @@ export const projects = [
     tags: ["Typescript", "Agora"],
     source: "https://github.com/sinhadityaforever/ViMeeet",
     visit: "https://vimeet-seven.vercel.app/create",
-    id: 3,
+    id: 2,
   },
+  {
+    title: "Airbnb Frontend",
+    description:
+      "In this project, I tried cloning the frontend of Airbnb using Next.js, Redux, and Tailwind CSS.  Alongside, Mapbox was used to show dummy maps on the website.",
+    image: "/images/new/airbnb.jpg",
+    tags: ["Next.js", "Tailwind CSS", "MapBox"],
+    source: "https://github.com/sinhadityaforever/Airbnb-clone",
+    visit: "https://airbnb-clone-teal.vercel.app/",
+    index: 3,
+  },
+
   {
     title: "EtherApp",
     description:
