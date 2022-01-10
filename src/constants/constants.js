@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "SocioApp",
     description:
-      "Built using TypeScript, React, Redux Toolkit, RestAPI and MongoDB under a week. The SocioApp is a full stack social media app that I made for my university grads where they can follow their friends, share their own thoughts, and view theirs.",
+      "Built using TypeScript, React, Redux Toolkit, RestAPI and MongoDB under a week. The SocioApp is a full stack custom social media app that I made for my university grads where they can follow their friends, share their own thoughts, and view other people's images and posts.",
     image: "/images/new/socio.jpg",
     tags: ["React", "Express", "MongoDB"],
     source: "https://github.com/sinhadityaforever/SocialMediaApp",
