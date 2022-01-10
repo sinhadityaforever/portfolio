@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-
+import { RoughNotation } from "react-rough-notation";
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -69,12 +69,36 @@ const Timeline = () => {
       <div style={{ marginTop: "2rem" }}></div>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I’m a software developer specializing in building full stack web apps.
-        Currently, I’m looking for an internship at a seed or pre-seed stage
-        startup as a Full-Stack developer. I tried to start my first app based
+        I’m a software developer specializing in building{" "}
+        <RoughNotation
+          multiline={true}
+          show={true}
+          color="pink"
+          type="highlight"
+        >
+          full stack{" "}
+        </RoughNotation>
+        web apps. Currently, I’m looking for an internship at a seed or pre-seed
+        stage startup as a Full-Stack developer. I tried to start{" "}
+        <RoughNotation
+          multiline={true}
+          type="highlight"
+          show="true"
+          color="#86EFAC"
+        >
+          my first app based
+        </RoughNotation>{" "}
         startup around a year ago, and got it deployed within a month. Currently
-        I am looking to be around people who are building products that bring a
-        difference
+        I am looking to be around people who are{" "}
+        <RoughNotation
+          multiline={true}
+          color="pink"
+          show={true}
+          type="highlight"
+        >
+          building products
+        </RoughNotation>{" "}
+        that bring a difference
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -7,18 +7,7 @@ const GlobalStyles = createGlobalStyle`
   position: relative;
 }
 
-.realistic-marker-highlight:before {
-  content: "";
-  background-color: #ff6db7;
-  width: 100%;
-  height: 1em;
-  position: absolute;
-  z-index: -1;
-  filter: url(#marker-shape);
-  left: -0.25em;
-  top: 0.1em;
-  padding: 0 0.25em;
-}
+
 
   * {
     box-sizing: border-box;

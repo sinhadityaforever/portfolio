@@ -43,7 +43,7 @@ const Header = () => (
           <a
             style={{ color: "inherit" }}
             target="_blank"
-            href="https://drive.google.com/file/d/1OFqUcr01eUPToXU7t3U3lJJgVQxJRt5b/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OFqUcr01eUPToXU7t3U3lJJgVQxJRt5b/view?usp=sharing/"
           >
             Resume
           </a>
