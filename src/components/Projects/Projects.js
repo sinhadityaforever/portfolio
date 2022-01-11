@@ -20,6 +20,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -28,7 +29,11 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <FadeIn>
+          <ScrollAnimation
+            animateIn="
+          fadeIn"
+            animateOnce={true}
+          >
             <BlogCard key={i}>
               <Img src={p.image} />
               <TitleContent>
@@ -70,7 +75,7 @@ const Projects = () => (
                 </ExternalLinks>
               </UtilityList>
             </BlogCard>
-          </FadeIn>
+          </ScrollAnimation>
         );
       })}
     </GridContainer>
